@@ -1,0 +1,94 @@
+.contact_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding-left: 35px;
+    font-weight: 500;
+    color: #515151;
+}
+.hdr_phone .info-txt{
+    color: #C41716;
+    font-weight: 700;
+}
+.hdr_phone{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+    position: relative;
+    
+}
+.hdr_phone .fa-phone-volume{
+    position: absolute;
+    left: -35px;
+    top: 6px;
+    color: #61616175;
+    font-size: 25px;
+}
+.site_header--phone_info{
+    color: #9f9f9f;
+}
+
+.outternav .form-inline input{
+    border: 0;
+    padding-left: 0;
+    padding: 0;
+}
+.outternav .form-inline{
+    width: 35%;
+}
+.outternav .form-inline .input-group{
+    border: 1px solid #ccc;
+    padding-left: 15px;
+}
+.submit_search .fa-search{
+    color: #C41716;
+}
+
+
+.swiper {
+width: 100%;
+height: 100%;
+}
+
+.swiper-slide {
+text-align: center;
+font-size: 18px;
+background: #fff;
+
+/* Center slide text vertically */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.swiper-slide img {
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.bottom_area ul li {
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #757575;
+   
+}
+.bottom_area ul {
+    flex-direction: row;
+    gap: 20px;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 25px !important;
+    font-weight: 800;
+    color: #fff;
+}
+.swiper-button-next, .swiper-button-prev{
+    background: #C41716;
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 100%;
+    line-height: 43px;
+}
