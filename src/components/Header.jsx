@@ -7,7 +7,7 @@ const Header = () => {
       <header>
         {/* <div className="container"> */}
             <div className="top_area ">
-                <nav className="navbar navbar-expand-lg bg-transparent">
+                <nav className="navbar navbar-expand-lg bg-transparent p-0">
                     <div className="container">
                         <a href="/">
                             <img 
@@ -20,7 +20,7 @@ const Header = () => {
                             <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
                         </button>
                         <div className="collapse navbar-collapse outternav" id="navbarSupportedContent">
-                            <div className="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <div className="navbar-nav mx-auto mb-2 mb-lg-0 p-0">
                                 <div className="contact_info d-lg-flex d-none">
                                     <span className="">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -55,7 +55,7 @@ const Header = () => {
                                     </span>
                                 </div>
                             </form>
-                            <span className="ml-2 d-lg-block d-none"><i class="fa-regular fa-heart"></i></span>
+                            <span className="ml-3 d-lg-block d-none"><i class="fa-regular fa-heart"></i></span>
                         </div>
                     </div>
                 </nav>
