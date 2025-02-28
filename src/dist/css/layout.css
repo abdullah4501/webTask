@@ -29,22 +29,22 @@
     color: #9f9f9f;
 }
 
-.outternav .form-inline input{
+ .form-inline input{
     border: 0;
     padding-left: 0;
     padding: 0;
 }
-.outternav .form-inline{
-    width: 35%;
-}
-.outternav .form-inline .input-group{
+
+ .form-inline .input-group{
     border: 1px solid #ccc;
     padding-left: 15px;
 }
 .submit_search .fa-search{
     color: #C41716;
 }
-
+.bottom_area li{
+    margin-left: 40px;
+}
 
 .swiper {
 width: 100%;
@@ -69,16 +69,8 @@ height: 100%;
 object-fit: cover;
 }
 
-.bottom_area ul li {
-    margin-left: 60px;
-    font-size: 20px;
-    font-weight: 500;
-    color: #757575;
-   
-}
 .bottom_area ul {
     flex-direction: row;
-    gap: 20px;
 }
 .swiper-button-next:after, .swiper-button-prev:after{
     font-size: 25px !important;
@@ -91,4 +83,30 @@ object-fit: cover;
     height: 45px !important;
     border-radius: 100%;
     line-height: 43px;
+}
+.navbar-toggler-icon i{
+    font-size: 30px;
+}
+.top_area{
+    justify-content: space-between;
+}
+.nav-item .nav-link{
+    
+    font-size: 20px;
+    font-weight: 500;
+    color: #757575;
+}
+@media screen and (max-width:992px) {
+    .contact_info{
+        margin-left: 0;
+    }
+}
+
+.fa-heart{
+    color: #C41716;
+    font-size: 20px;
+}
+.filters{
+    padding: 25px;
+    border-bottom: 2px solid #ccc;
 }

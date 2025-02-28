@@ -7,7 +7,6 @@ const Header = () => {
       <header>
         {/* <div className="container"> */}
             <div className="top_area ">
-
                 <nav className="navbar navbar-expand-lg bg-transparent">
                     <div className="container">
                         <a href="/">
@@ -17,12 +16,12 @@ const Header = () => {
                                 alt="Logo" 
                             />
                         </a>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
                         </button>
                         <div className="collapse navbar-collapse outternav" id="navbarSupportedContent">
                             <div className="navbar-nav mx-auto mb-2 mb-lg-0">
-                                <div className="contact_info ">
+                                <div className="contact_info d-lg-flex d-none">
                                     <span className="">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                     </span>
@@ -31,37 +30,50 @@ const Header = () => {
                                     </a>
                                     <span className="site_header--phone_info"> Lorem ipsum dolor sit amet consectetur</span>
                                 </div>
+                                <ul className="navbar-nav d-lg-none d-md-block">
+                                    <li className="nav-item"><a className="nav-link" href="#">Home</a></li>
+                                    <li className="nav-item"><a className="nav-link" href="#">About</a></li>
+                                    <li className="nav-item"><a className="nav-link" href="#">Service</a></li>
+                                    <li className="nav-item"><a className="nav-link" href="#">Blog</a></li>
+                                    <li className="nav-item"><a className="nav-link" href="#">FAQ</a></li>
+                                    <li className="nav-item"><a className="nav-link" href="#">Lorem Ipsum</a></li>
+                                    <li className="nav-item"><a className="nav-link" href="#">Lorem Ipsum</a></li>
+                                    <li className="nav-item"><a className="nav-link" href="#">Lorem Ipsum</a></li>
+                                </ul>
                             </div>
                             <form className="form-inline">
-                        <div className="input-group">
-                            <input 
-                            type="text" 
-                            className="form-control " 
-                            placeholder="Reise finden"
-                            />
-                            <span className="input-group-btn">
-                            <button className="btn submit_search" type="submit">
-                                <i className="fas fa-search"></i>
-                            </button>
-                            </span>
-                        </div>
+                                <div className="input-group">
+                                    <input 
+                                    type="text" 
+                                    className="form-control " 
+                                    placeholder="Reise finden"
+                                    />
+                                    <span className="input-group-btn">
+                                    <button className="btn submit_search" type="submit">
+                                        <i className="fas fa-search"></i>
+                                    </button>
+                                    </span>
+                                </div>
                             </form>
+                            <span className="ml-2 d-lg-block d-none"><i class="fa-regular fa-heart"></i></span>
                         </div>
                     </div>
                 </nav>
             </div>
-            <hr />
-            <div className="bottom_area d-flex">
-                <ul className="navbar-nav mx-auto">
-                    <li className="nav-item"><a className="nav-link" href="#">Home</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#">About</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#">Service</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#">Blog</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#">FAQ</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#">Lorem Ipsum</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#">Lorem Ipsum</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#">Lorem Ipsum</a></li>
-                </ul>
+            <div className="container">
+                <hr className="d-lg-flex d-none"/>
+                <div className="bottom_area d-lg-flex d-none">
+                    <ul className="navbar-nav auto">
+                        <li className="nav-item"><a className="nav-link" href="#">Home</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#">About</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#">Service</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#">Blog</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#">FAQ</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#">Lorem Ipsum</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#">Lorem Ipsum</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#">Lorem Ipsum</a></li>
+                    </ul>
+                </div>
             </div>
         {/* </div> */}
       </header>

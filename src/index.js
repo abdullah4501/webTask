@@ -1,6 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css"; // Bootstrap CSS
-import "bootstrap/dist/js/bootstrap.bundle.min"; // Bootstrap JS
-import "@fortawesome/fontawesome-free/css/all.min.css"; // FontAwesome
+import "@fortawesome/fontawesome-free/css/all.min.css"; 
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
