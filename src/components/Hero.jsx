@@ -27,6 +27,13 @@ const Hero = () => {
               alt="Hero Banner" 
               style={{ width: "100%", height: "auto", objectFit: "cover" }} 
             />
+            <div className="card card_hero_upper">
+              <div className="card-body text-left">
+                <h5 className="card-title">Insel Senga/Norwegen</h5>
+                <p className="card-text">Some quick example text to build on the card title</p>
+                <button className="btn btn-card">Lorem Ipsum</button>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
             <img 
@@ -34,6 +41,13 @@ const Hero = () => {
               alt="Slide 2" 
               style={{ width: "100%", height: "auto", objectFit: "cover" }} 
             />
+            <div className="card card_hero_upper">
+              <div className="card-body text-left">
+                <h5 className="card-title">Insel Senga/Norwegen</h5>
+                <p className="card-text">Some quick example text to build on the card title</p>
+                <button className="btn btn-card">Lorem Ipsum</button>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
             <img 
@@ -41,6 +55,13 @@ const Hero = () => {
               alt="Slide 3" 
               style={{ width: "100%", height: "auto", objectFit: "cover" }} 
             />
+            <div className="card card_hero_upper">
+              <div className="card-body text-left">
+                <h5 className="card-title">Insel Senga/Norwegen</h5>
+                <p className="card-text">Some quick example text to build on the card title</p>
+                <button className="btn btn-card">Lorem Ipsum</button>
+              </div>
+            </div>
           </SwiperSlide>
         </Swiper>
       </div>

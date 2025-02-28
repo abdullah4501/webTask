@@ -9,6 +9,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import PhotoCameraBackIcon from '@mui/icons-material/PhotoCameraBack';
 
 const Item = styled(Sheet)(({ theme }) => ({
   backgroundColor: "#fff",
@@ -270,6 +271,19 @@ const Content = () => {
                 </SwiperSlide>
                 </Swiper>
             </div>
+        </div>
+
+        <div className='section_ship' style={{ padding: "40px 0" }}>
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-6 col-md-6 col-sm-12">
+                        <PhotoCameraBackIcon fontSize="large"/>
+                        <h6 className='inner_subheading mt-3'>Lorem ipsum dolor sit amet consectetur.</h6>
+                        <h3 className='inner_heading mt-1'> Kaum einer bietet Ihnen ein so umfangreiches und hochwertiges Norwegen-Programm wie wir.</h3>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </>
   );
