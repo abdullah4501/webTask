@@ -1,0 +1,551 @@
+$primary-color: #C41716;
+$secondary-color: #515151;
+$light-gray: #ccc;
+$medium-gray: #9f9f9f;
+$white: #fff;
+$background-light: #f5f5f5;
+$card-text-color: #777777;
+$date-color: #999999;
+$nav-link-color: #757575;
+$ref-bg: #ededed;
+$footer-text-color: #6a6a6a;
+$subheading-color: #6c6c6c;
+$inner-subheading-color: #5d5d5d;
+
+.contact_info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 20px;
+  padding-left: 35px;
+  font-weight: 500;
+  color: $secondary-color;
+}
+
+.hdr_phone {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 22px;
+  position: relative;
+
+  .info-txt {
+    color: $primary-color;
+    font-weight: 700;
+  }
+
+  .fa-phone-volume {
+    position: absolute;
+    left: -35px;
+    top: 6px;
+    color: #61616175;
+    font-size: 25px;
+  }
+}
+
+.site_header--phone_info {
+  color: $medium-gray;
+}
+
+.form-inline {
+  input {
+    border: 0;
+    padding-left: 0;
+    padding: 0;
+  }
+  .input-group {
+    border: 1px solid $light-gray;
+    padding-left: 15px;
+    border-radius: 6px;
+  }
+}
+
+.submit_search {
+  .fa-search {
+    color: $primary-color;
+  }
+}
+
+.bottom_area {
+  li {
+    margin-left: 40px;
+  }
+  ul {
+    flex-direction: row;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 25px !important;
+  font-weight: 800;
+  color: $white;
+}
+
+.section_ship {
+  .swiper-button-next:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f061"; // Unicode for arrow-right
+    font-weight: 900;
+    font-size: 20px !important;
+    color: $white;
+  }
+  .swiper-button-prev:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f060"; // Unicode for arrow-left
+    font-weight: 900;
+    font-size: 20px !important;
+    color: $white;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background: $primary-color;
+  width: 45px !important;
+  height: 35px !important;
+  border-radius: 0;
+  line-height: 43px;
+}
+
+.navbar-toggler-icon {
+  i {
+    font-size: 30px;
+  }
+}
+
+.top_area {
+  justify-content: space-between;
+}
+
+.nav-item {
+  .nav-link {
+    font-size: 20px;
+    font-weight: 500;
+    color: $nav-link-color;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contact_info {
+    margin-left: 0;
+  }
+}
+
+.fa-heart {
+  color: $primary-color;
+  font-size: 20px;
+}
+
+// FILTERS
+.filters {
+  padding: 25px;
+  border-bottom: 2px solid $light-gray;
+  margin-bottom: 25px;
+
+  .form-inline {
+    column-gap: 12px;
+
+    .input-group {
+      padding: 5px 20px;
+      padding-left: 10px !important;
+      width: 20%;
+      height: 38px;
+    }
+  }
+}
+
+.css-jupps9-MuiInputBase-root-MuiOutlinedInput-root {
+  padding-right: 0 !important;
+  flex-direction: row-reverse;
+}
+.css-10o2lyd-MuiStack-root {
+  overflow: hidden !important;
+  padding: 0 !important;
+  width: 100%;
+}
+.css-1b1fjlj-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
+.css-1ll44ll-MuiOutlinedInput-notchedOutline {
+  border: 0 !important;
+}
+.css-elo8k2-MuiInputAdornment-root {
+  margin-left: 0 !important;
+  margin-right: 10% !important;
+}
+.css-1umw9bq-MuiSvgIcon-root {
+  fill: $primary-color !important;
+}
+.css-23ykcx-JoySelect-root {
+  height: 38px !important;
+  width: 20% !important;
+  box-shadow: none !important;
+  background: $white !important;
+}
+
+.filter-btn {
+  background-color: $primary-color;
+  color: $white;
+  font-weight: 500;
+  text-align: center;
+  border: 0 !important;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.image-card {
+  background-color: transparent;
+  border: 0 !important;
+  color: $white;
+}
+
+.card-bg {
+  background-size: cover;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card-subtitle {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.btn-card {
+  background: $primary-color;
+  color: $white;
+  border: 0;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+
+.section_slide {
+  padding: 45px;
+  background-color: #f5f5f5;
+}
+
+.card-text {
+  color: $card-text-color;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.list-group-item {
+  border: 0;
+  padding: 0;
+}
+
+.card-col-left {
+  .list-group-item {
+    font-size: 16px;
+  }
+}
+
+.tag {
+  font-weight: 700;
+}
+
+.date {
+  font-weight: 600;
+  color: $date-color;
+}
+
+.total {
+  color: $primary-color;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.desc {
+  color: $date-color;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+// SWIPER PAGINATION (Section Ship)
+.section_ship {
+  .swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+    background-color: rgba(255, 255, 255, 0.651) !important;
+    opacity: 0.7;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: $white !important;
+    opacity: 1;
+  }
+}
+
+// SWIPER PAGINATION (Section Slide)
+.section_slide {
+  .swiper-pagination-bullet {
+    width: 15px !important;
+    height: 15px !important;
+    background-color: rgb(187, 102, 102) !important;
+    opacity: 0.7;
+    margin: 5px !important;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: $primary-color !important;
+    opacity: 1;
+  }
+  .swiper-pagination {
+    bottom: -10px !important;
+  }
+}
+
+// CARD HERO UPPER
+.card_hero_upper {
+  width: 25%;
+  position: absolute;
+  top: 70px;
+  left: 20%;
+  background-color: #ffffffbb !important;
+
+  .card-title {
+    font-size: 32px;
+  }
+  .card-text {
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .card_hero_upper {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .card_hero_upper {
+    width: 85%;
+    left: 40px;
+    top: 20px;
+
+    .card-title {
+      font-size: 20px;
+    }
+    .card-text {
+      font-size: 12px;
+      font-weight: 700;
+    }
+  }
+}
+
+// INNER HEADINGS
+.inner_heading {
+  font-weight: 700;
+  color: $primary-color;
+}
+
+.inner_subheading {
+  color: $inner-subheading-color;
+  font-size: 16px;
+}
+
+// REF
+.ref {
+  padding: 15px;
+  background: $ref-bg;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+  p {
+    font-size: 17px;
+    font-weight: 700;
+  }
+}
+
+// KATALOG SECTION
+.katalog {
+  background-color: $primary-color;
+
+  .content {
+    width: 90%;
+    p {
+      color: $white;
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+  .book {
+    width: 55%;
+  }
+}
+
+// CONTENT BUTTONS
+.content {
+  .btn_left {
+    width: 40%;
+    background: $white;
+    border: 1px solid $primary-color;
+    font-weight: 700;
+    color: $primary-color;
+    font-size: 18px;
+  }
+  .btn_right {
+    width: 40%;
+    background: transparent;
+    border: 1px solid $white;
+    font-weight: 700;
+    color: $white;
+    font-size: 18px;
+  }
+}
+
+// ACTIONS
+.actions {
+  column-gap: 20px;
+  display: flex;
+}
+
+// SECTION HEADING
+.section-heading {
+  color: $primary-color;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+// MUI CARD OVERRIDES
+.MuiCardCover-root {
+  background: #000;
+  img {
+    opacity: 0.7;
+  }
+}
+
+.MuiCardContent-root {
+  align-items: center;
+  justify-content: center;
+
+  p {
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .subheading {
+    font-size: 15px;
+    color: $white;
+    font-weight: 700;
+  }
+}
+
+// BTN-ALL
+.btn-all {
+  color: $primary-color;
+  border: 1px solid $primary-color;
+  margin-top: 20px;
+  width: 260px;
+}
+
+// DATA GRID
+.data-grid {
+  .inner_heading {
+    font-size: 20px;
+  }
+  p {
+    color: #939393;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+}
+
+// SUBHEADING (global)
+.subheading {
+  font-weight: 500;
+  color: $subheading-color;
+  font-size: 18px;
+}
+
+// DATA CONTENT
+.data-content {
+  width: 50%;
+  margin: auto;
+
+  p {
+    color: #939393;
+  }
+}
+
+// FOOTER
+.footer {
+  background-color: $background-light;
+}
+
+.footer-upper {
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    width: 320px;
+    height: auto;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  p,
+  ul li,
+  span {
+    font-weight: 500;
+    font-size: 18px;
+    color: $footer-text-color;
+  }
+}
+
+.contact-footer {
+  list-style: none;
+  padding: 0;
+
+  span {
+    color: $primary-color;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-upper {
+    flex-direction: column;
+
+    .contact_info {
+      width: 80%;
+      margin: auto;
+      margin-top: 40px;
+    }
+    .logo {
+      width: 75% !important;
+      margin: auto;
+    }
+  }
+  .data-content {
+    width: 100%;
+  }
+}

@@ -2,7 +2,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import "./dist/css/layout.css";
+import "./dist/scss/layout.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
